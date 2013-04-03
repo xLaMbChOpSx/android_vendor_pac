@@ -8,6 +8,9 @@ OVERLAY_TARGET := pa_hdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
 
 # PAC device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/device/i9100/packages/apps/Settings/res/values
+
+# PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
 $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
